@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Dongle:wght@300&family=Julee&family=Rubik:wght@300&display=swap');
+
+.main {
+    margin: 30px;
+    border: 2px solid black;
+    padding: 40px 40px;
+}
+
+/* top div */
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventname{
+    font-family: 'Julee', cursive;;
+}
+
+.seatsavail{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+}
+
+/* bottom div  */
+.bottom{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 30px 40px;
+    display: flex;
+    gap: 16em;
+}
+
+
+.image{
+    width: 14em;
+    
+}
+
+.formdiv{
+    width: 800px;
+}
+
+/* labels */
+.col-form-label{
+    width: 13em;
+}
+
+/* inputs  */
+.col-sm-10{
+    width: 60%;
+}
+
+.form-select{
+    width: 40%;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.btn{
+    width: 10em;
+}
+
+
+@media screen and (max-width: 880px) {
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .formdiv{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .col-sm-10{
+        width: auto;
+    }
+
+    .form-select{
+        width: auto;
+    }
+
+    .buttondiv{
+        gap: 10px;
+    }
+}
